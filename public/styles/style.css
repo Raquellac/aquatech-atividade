@@ -1,1 +1,49 @@
 /* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+.header {
+		width: 1400;
+		height: fit-content;
+		background-color: rgb(7, 7, 7);
+		border: solid 4px rgb(67, 169, 216);
+		margin: -14px;
+		padding: -10px;
+	}
+
+    .container1 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .titulo{
+       
+        align-self: center;
+        order: 1;
+        color: rgb(67, 169, 216);
+    }
+
+    .navbar{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        order: 2;
+    }
+
+    .banner{
+        background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+        height: 500px;
+        width: 100%;
+    }
+
+    .banner p{
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    width: 250px;
+    }
+
+    .container2{
+        font-size: 50px;
+    }
